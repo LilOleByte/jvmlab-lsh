@@ -1,0 +1,33 @@
+BSD Zero Clause License (0BSD)
+
+Copyright (c) JVMLAB <byte@jvmlab.org>
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+Upstream attribution
+--------------------
+
+This project is a fork of Stephen Brennan's `lsh` teaching shell:
+
+    https://github.com/brenns10/lsh
+    http://brennan.io/2015/01/16/write-a-shell-in-c/
+
+Stephen released the original under the Unlicense (public domain
+dedication), which permits unrestricted relicensing of derivative
+works. The jvmlab-lsh fork ships under 0BSD for consistency with the
+rest of the jvmlab project (`jvmlab-build`, `jvmlab-toybox`), which
+use the same licence. This preserves the effectively-permissive
+intent of Stephen's original while matching the jvmlab-wide text.
+
+Stephen retains authorship credit for all upstream code paths; see
+the header comment in `src/main.c` for the line-by-line attribution.
